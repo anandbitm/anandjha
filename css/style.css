@@ -1486,7 +1486,9 @@ ul.slides li {
 /** Responsive fixes **/
 @media screen and (max-width: 767px) {
   .about-image {
-    height: 280px;
+    height: auto;
+    min-height: 400px;
+
   }
 
   .inner {
@@ -1527,9 +1529,12 @@ ul.slides li {
   .show-menu .menu-wrap {
     height: 100%;
   }
+
+
 }
 
 @media screen and (max-width: 991px) {
+
 
   .hero {
     /*	padding: 0px;*/

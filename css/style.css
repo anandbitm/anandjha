@@ -486,16 +486,14 @@ table {
   right: 0.5em;
   bottom: 0.5em;
   left: 0.5em;
-  background: linear-gradient(
-    #e04343 20%,
-    rgba(0, 0, 0, 0) 20%,
-    rgba(0, 0, 0, 0) 40%,
-    #e04343 40%,
-    #e04343 60%,
-    rgba(0, 0, 0, 0) 60%,
-    rgba(0, 0, 0, 0) 80%,
-    #e04343 80%
-  );
+  background: linear-gradient(#e04343 20%,
+      rgba(0, 0, 0, 0) 20%,
+      rgba(0, 0, 0, 0) 40%,
+      #e04343 40%,
+      #e04343 60%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0) 80%,
+      #e04343 80%);
   content: "";
 }
 
@@ -648,6 +646,7 @@ table {
 }
 
 @-moz-keyframes arrowbounce {
+
   /* Firefox */
   from {
     -webkit-transform: translateY(0);
@@ -663,6 +662,7 @@ table {
 }
 
 @-webkit-keyframes arrowbounce {
+
   /* Safari and Chrome */
   from {
     -webkit-transform: translateY(0);
@@ -678,6 +678,7 @@ table {
 }
 
 @-o-keyframes arrowbounce {
+
   /* Opera */
   from {
     -webkit-transform: translateY(0);
@@ -939,7 +940,7 @@ img.grayscale:hover {
   margin-right: 0;
 }
 
-.row-offset-0 > * {
+.row-offset-0>* {
   padding-left: 0;
   padding-right: 0;
 }
@@ -953,6 +954,7 @@ img.grayscale:hover {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  height: 100px;
 }
 
 .effects .img:nth-child(n) {
@@ -1527,10 +1529,12 @@ ul.slides li {
     /*	padding: 0px;*/
     padding: 0px 0 150px 0;
   }
+
   .scrollto {
     position: relative;
     top: 160px;
   }
+
   .subscribe {
     padding-bottom: 40px;
   }

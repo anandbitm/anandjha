@@ -738,7 +738,7 @@ h1.arrow span {
 
 /* ==========================================================================About========================================================================== */
 .about-image {
-  height: 400px;
+  height: 450px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1183,7 +1183,7 @@ ul.social-buttons li:last-child {
   line-height: 52px;
   text-align: center;
   position: absolute;
-  top: -26px;
+  top: 40px;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -1395,6 +1395,7 @@ ul.slides li {
 /* ==========================================================================Responsive========================================================================== */
 /* 320px (iPhone) */
 @media screen and (max-width: 414px) {
+
   .scrollto {
     padding: 95px 0px 0px 0px;
   }
@@ -1484,6 +1485,10 @@ ul.slides li {
 
 /** Responsive fixes **/
 @media screen and (max-width: 767px) {
+  .about-image {
+    height: 280px;
+  }
+
   .inner {
     padding-top: 10px;
     text-align: center;
@@ -1525,6 +1530,7 @@ ul.slides li {
 }
 
 @media screen and (max-width: 991px) {
+
   .hero {
     /*	padding: 0px;*/
     padding: 0px 0 150px 0;

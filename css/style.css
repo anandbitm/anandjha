@@ -37,11 +37,10 @@ a:active {
 }
 
 p {
-  color: #8c9398;
+  color: #000;
   word-spacing: 1px;
   line-height: 25px;
   font-size: 14px;
-  font-weight: bold;
 }
 
 h2 {

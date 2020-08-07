@@ -255,6 +255,18 @@ p {
   line-height: 28px !important;
 }
 
+.row-heading{
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 28px !important;
+  color:#FFF;
+  text-align:left;
+  padding:10px;
+  margin:5px 0;
+ background-color:#bc5a45;
+ border:1px solid #ffef96;
+}
+
 /* ==========================================================================Lists========================================================================== */
 dl,
 menu,

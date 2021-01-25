@@ -259,13 +259,21 @@ p {
   font-size: 16px;
   font-weight: 100;
   line-height: 28px !important;
-  color:#FFF;
-  text-align:left;
-  padding:10px;
-  margin:5px 0;
- background-color:#bc5a45;
- border:1px solid #ffef96;
+  color: #000;
+  text-align: left;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  border-top: 1px solid #000;
+  border-radius: 0px 5px 5px 0px;
 }
+.row-heading > span , .row-heading  a{
+  color: #e04343 !important;
+}
+
 
 /* ==========================================================================Lists========================================================================== */
 dl,
